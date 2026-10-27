@@ -9,7 +9,7 @@
 //! when the design changes, as it would inside the design, and reports it when the face is gone.
 
 use std::hash::{Hash, Hasher};
-use std::path::{Component as PathPart, Path, PathBuf};
+use std::path::{Path, PathBuf};
 use std::sync::Mutex;
 
 use serde_json::{Value, json};
